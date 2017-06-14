@@ -1,8 +1,33 @@
 <h1>Student Details</h1>
-<img src="<%= @student.url  %>">
+<div id="detailsflex">
+<div class="image">
+  <img src="<%= @student.url  %>">
+</div>
+<div class="image">
 <p>First Name: <%= @student.first_name %></p>
 <p>Last Name: <%= @student.second_name %></p>
 <p>Age: <%= @student.age %></p>
-
 <p>House: <%= @student.house %></p>
-<img src="<%= @house.url  %>">
+</div>
+<div class="image">
+<img src="<%= @house.url  %>">  
+</div>
+</div>
+
+
+<!-- <div id="blogflex">
+  <section>
+    <article>
+      <h2>Lula and Lola in the park</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h2 id="orangeHeading" class="largeHeading">This is heading level 2 and it is orange</h2>
+    </article>
+  </section>
+  <aside>
+    <figure>
+      <h3>Wojtek Kutyla</h3>
+      <p>I love cats, omg.</p>
+      <p><a href="mailto:wojtek.kutyla@codeclan.com">Email me</a></p>
+    </figure>
+  </aside>
+</div> -->
